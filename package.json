@@ -4,5 +4,12 @@
   "description": "test codes",
   "main": "index.js",
   "author": "Md Ashraful Alam",
-  "license": "test"
+  "license": "test",
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  }
+
 }
